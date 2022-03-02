@@ -1,4 +1,6 @@
 #include "user.h"
+#include <stdio.h>
+#include <string.h>
 
 int numberOfUsers = 0;
 
@@ -66,5 +68,5 @@ void printUser(User *user) {
            getUserType(user->type),
            getGender(user->gender),
            getSpecialization(user->specialization),
-           user->birthYear;
+           user->birthYear);
 }

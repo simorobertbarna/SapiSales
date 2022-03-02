@@ -10,6 +10,11 @@
 #include "errors.h"
 #include "messages.h"
 
+typedef struct{
+    unsigned int day;
+    unsigned int month;
+    unsigned int year
+}Date;
 
 enum UserType {
     STUDENT,
@@ -38,7 +43,8 @@ typedef struct {
     enum UserType type;
     enum Gender gender;
     enum Specialization specialization;
-    unsigned int birthYear;
+    Date date;
+
 }User;
 
 char* getUserType(enum UserType type);
@@ -47,9 +53,9 @@ char* getSpecialization(enum Specialization type);
 
 User* createUser(
         char* name;
-        enum UserType type,
-        enum Gender gender,
-        enum Specialization specialization,
+        enum UserType type;
+        enum Gender gender;
+        enum Specialization specialization;
         unsigned int birthYear);
 
 void printUser(User* user);

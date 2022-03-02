@@ -28,11 +28,9 @@ typedef struct {
 
 char* getProductType(enum ProductType type);
 
-Product* createProduct(
-        char id[10],
-        char name[20],
-        enum ProductType type,
-                unsigned int amount);
+void createProduct(Product** product);
+
+void CreateProduct(Product* product, char id[10], char name[20], enum ProductType type, unsigned int amount, double price);
 void printProduct(Product* product);
 
 #endif //SAPISALES_PRODUCT_H

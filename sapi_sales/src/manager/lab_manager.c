@@ -1,4 +1,3 @@
-#include "mutal.h"
 
 void lab2() {
     printDescriptionMessage(LAB2);

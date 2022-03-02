@@ -1,5 +1,7 @@
 #include "product.h"
-
+#include <stdio.h>
+#include <string.h>
+#include <time.h>
 
 char* getProductType(enum ProductType type) {
     switch (type) {
@@ -16,13 +18,15 @@ char* getProductType(enum ProductType type) {
     }
 }
 
-Product *createProduct(char *id, char *name, enum ProductType type, unsigned int amount) {
+void *CreateProduct(char *id, char *name, enum ProductType type, unsigned int amount, double price) {
     Product* newProduct = malloc(sizeof(Product));
     strcpy(newProduct->id, id);
     strcpy(newProduct->name, name);
     newProduct->type = type;
     newProduct->amount = amount;
     newProduct->creationDate = time(NULL);
+    newProduct->price = price;
+
     return newProduct;
 }
 
@@ -36,5 +40,6 @@ void printProduct(Product *product) {
            product->id,
            getProductType(product->type),
            product->amount,
-           product->creationDate);
+           product->creationDate
+           product->price);
 }
