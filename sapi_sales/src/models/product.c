@@ -36,6 +36,7 @@ void printProduct(Product *product) {
            "\t - TYPE: %s\n"
            "\t - AMOUNT: %u\n"
            "\t - CREATION DATE: %ld\n"
+           "\t - PRICE: %lf\n"
            product->name,
            product->id,
            getProductType(product->type),

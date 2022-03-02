@@ -1,6 +1,3 @@
-//
-// Created by Robi on 3/1/2022.
-//
 
 #ifndef SAPISALES_USER_H
 #define SAPISALES_USER_H
