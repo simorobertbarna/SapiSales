@@ -6,6 +6,9 @@
 #define SAPISALES_PRODUCT_H
 
 #include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <time.h>
 #include "useful.h"
 #include "errors.h"
 #include "messages.h"
@@ -29,8 +32,8 @@ typedef struct {
 char* getProductType(enum ProductType type);
 
 void createProduct(Product** product);
-
-void CreateProduct(Product* product, char id[10], char name[20], enum ProductType type, unsigned int amount, double price);
+void setProductData(Product* product, char* name, enum ProductType type, unsigned int amount, unsigned int price);
 void printProduct(Product* product);
+void deleteProduct(Product** product);
 
 #endif //SAPISALES_PRODUCT_H

@@ -1,3 +1,6 @@
+//
+// Created by Robi on 3/1/2022.
+//
 
 #ifndef SAPISALES_USER_H
 #define SAPISALES_USER_H
@@ -7,11 +10,6 @@
 #include "errors.h"
 #include "messages.h"
 
-typedef struct{
-    unsigned int day;
-    unsigned int month;
-    unsigned int year
-}Date;
 
 enum UserType {
     STUDENT,
@@ -40,8 +38,7 @@ typedef struct {
     enum UserType type;
     enum Gender gender;
     enum Specialization specialization;
-    Date date;
-
+    unsigned int birthYear;
 }User;
 
 char* getUserType(enum UserType type);
@@ -50,9 +47,9 @@ char* getSpecialization(enum Specialization type);
 
 User* createUser(
         char* name;
-        enum UserType type;
-        enum Gender gender;
-        enum Specialization specialization;
+        enum UserType type,
+        enum Gender gender,
+        enum Specialization specialization,
         unsigned int birthYear);
 
 void printUser(User* user);

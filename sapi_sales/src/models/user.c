@@ -56,7 +56,7 @@ User* createUser(char* name, enum UserType type, enum Gender gender, enum Specia
     return newUser;
 }
 
-void printUser(User *user) {
+void printUser(User *user, char* destination) {
     printf("%s details:\n"
            "\t - ID: %i\n"
            "\t - TYPE: %s\n"

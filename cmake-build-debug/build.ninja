@@ -98,6 +98,34 @@ build CMakeFiles/sapi_sales.dir/shared/src/messages.c.obj: C_COMPILER__sapi_sale
   OBJECT_DIR = CMakeFiles\sapi_sales.dir
   OBJECT_FILE_DIR = CMakeFiles\sapi_sales.dir\shared\src
 
+build CMakeFiles/sapi_sales.dir/sapi_sales/src/manager/lab3.c.obj: C_COMPILER__sapi_sales_Debug D$:/Egyetem/II.FÉLÉV/Adatszerkezetek/SapiSales/sapi_sales/src/manager/lab3.c || cmake_object_order_depends_target_sapi_sales
+  DEP_FILE = CMakeFiles\sapi_sales.dir\sapi_sales\src\manager\lab3.c.obj.d
+  FLAGS = -g -std=gnu99
+  INCLUDES = -ID:/Egyetem/II.FÉLÉV/Adatszerkezetek/SapiSales/sapi_sales/headers/manager -ID:/Egyetem/II.FÉLÉV/Adatszerkezetek/SapiSales/sapi_sales/headers/models -ID:/Egyetem/II.FÉLÉV/Adatszerkezetek/SapiSales/sapi_sales/src/manager -ID:/Egyetem/II.FÉLÉV/Adatszerkezetek/SapiSales/sapi_sales/src/models -ID:/Egyetem/II.FÉLÉV/Adatszerkezetek/SapiSales/shared/headers -ID:/Egyetem/II.FÉLÉV/Adatszerkezetek/SapiSales/shared/src
+  OBJECT_DIR = CMakeFiles\sapi_sales.dir
+  OBJECT_FILE_DIR = CMakeFiles\sapi_sales.dir\sapi_sales\src\manager
+
+build CMakeFiles/sapi_sales.dir/sapi_sales/src/manager/user_array.c.obj: C_COMPILER__sapi_sales_Debug D$:/Egyetem/II.FÉLÉV/Adatszerkezetek/SapiSales/sapi_sales/src/manager/user_array.c || cmake_object_order_depends_target_sapi_sales
+  DEP_FILE = CMakeFiles\sapi_sales.dir\sapi_sales\src\manager\user_array.c.obj.d
+  FLAGS = -g -std=gnu99
+  INCLUDES = -ID:/Egyetem/II.FÉLÉV/Adatszerkezetek/SapiSales/sapi_sales/headers/manager -ID:/Egyetem/II.FÉLÉV/Adatszerkezetek/SapiSales/sapi_sales/headers/models -ID:/Egyetem/II.FÉLÉV/Adatszerkezetek/SapiSales/sapi_sales/src/manager -ID:/Egyetem/II.FÉLÉV/Adatszerkezetek/SapiSales/sapi_sales/src/models -ID:/Egyetem/II.FÉLÉV/Adatszerkezetek/SapiSales/shared/headers -ID:/Egyetem/II.FÉLÉV/Adatszerkezetek/SapiSales/shared/src
+  OBJECT_DIR = CMakeFiles\sapi_sales.dir
+  OBJECT_FILE_DIR = CMakeFiles\sapi_sales.dir\sapi_sales\src\manager
+
+build CMakeFiles/sapi_sales.dir/sapi_sales/src/stack/product_stack.c.obj: C_COMPILER__sapi_sales_Debug D$:/Egyetem/II.FÉLÉV/Adatszerkezetek/SapiSales/sapi_sales/src/stack/product_stack.c || cmake_object_order_depends_target_sapi_sales
+  DEP_FILE = CMakeFiles\sapi_sales.dir\sapi_sales\src\stack\product_stack.c.obj.d
+  FLAGS = -g -std=gnu99
+  INCLUDES = -ID:/Egyetem/II.FÉLÉV/Adatszerkezetek/SapiSales/sapi_sales/headers/manager -ID:/Egyetem/II.FÉLÉV/Adatszerkezetek/SapiSales/sapi_sales/headers/models -ID:/Egyetem/II.FÉLÉV/Adatszerkezetek/SapiSales/sapi_sales/src/manager -ID:/Egyetem/II.FÉLÉV/Adatszerkezetek/SapiSales/sapi_sales/src/models -ID:/Egyetem/II.FÉLÉV/Adatszerkezetek/SapiSales/shared/headers -ID:/Egyetem/II.FÉLÉV/Adatszerkezetek/SapiSales/shared/src
+  OBJECT_DIR = CMakeFiles\sapi_sales.dir
+  OBJECT_FILE_DIR = CMakeFiles\sapi_sales.dir\sapi_sales\src\stack
+
+build CMakeFiles/sapi_sales.dir/sapi_sales/src/manager/lab5.c.obj: C_COMPILER__sapi_sales_Debug D$:/Egyetem/II.FÉLÉV/Adatszerkezetek/SapiSales/sapi_sales/src/manager/lab5.c || cmake_object_order_depends_target_sapi_sales
+  DEP_FILE = CMakeFiles\sapi_sales.dir\sapi_sales\src\manager\lab5.c.obj.d
+  FLAGS = -g -std=gnu99
+  INCLUDES = -ID:/Egyetem/II.FÉLÉV/Adatszerkezetek/SapiSales/sapi_sales/headers/manager -ID:/Egyetem/II.FÉLÉV/Adatszerkezetek/SapiSales/sapi_sales/headers/models -ID:/Egyetem/II.FÉLÉV/Adatszerkezetek/SapiSales/sapi_sales/src/manager -ID:/Egyetem/II.FÉLÉV/Adatszerkezetek/SapiSales/sapi_sales/src/models -ID:/Egyetem/II.FÉLÉV/Adatszerkezetek/SapiSales/shared/headers -ID:/Egyetem/II.FÉLÉV/Adatszerkezetek/SapiSales/shared/src
+  OBJECT_DIR = CMakeFiles\sapi_sales.dir
+  OBJECT_FILE_DIR = CMakeFiles\sapi_sales.dir\sapi_sales\src\manager
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target sapi_sales
@@ -106,7 +134,7 @@ build CMakeFiles/sapi_sales.dir/shared/src/messages.c.obj: C_COMPILER__sapi_sale
 #############################################
 # Link the executable sapi_sales.exe
 
-build sapi_sales.exe: C_EXECUTABLE_LINKER__sapi_sales_Debug CMakeFiles/sapi_sales.dir/sapi_sales/src/main.c.obj CMakeFiles/sapi_sales.dir/sapi_sales/src/manager/lab2.c.obj CMakeFiles/sapi_sales.dir/sapi_sales/src/manager/lab_manager.c.obj CMakeFiles/sapi_sales.dir/sapi_sales/src/models/product.c.obj CMakeFiles/sapi_sales.dir/sapi_sales/src/models/user.c.obj CMakeFiles/sapi_sales.dir/shared/src/errors.c.obj CMakeFiles/sapi_sales.dir/shared/src/messages.c.obj
+build sapi_sales.exe: C_EXECUTABLE_LINKER__sapi_sales_Debug CMakeFiles/sapi_sales.dir/sapi_sales/src/main.c.obj CMakeFiles/sapi_sales.dir/sapi_sales/src/manager/lab2.c.obj CMakeFiles/sapi_sales.dir/sapi_sales/src/manager/lab_manager.c.obj CMakeFiles/sapi_sales.dir/sapi_sales/src/models/product.c.obj CMakeFiles/sapi_sales.dir/sapi_sales/src/models/user.c.obj CMakeFiles/sapi_sales.dir/shared/src/errors.c.obj CMakeFiles/sapi_sales.dir/shared/src/messages.c.obj CMakeFiles/sapi_sales.dir/sapi_sales/src/manager/lab3.c.obj CMakeFiles/sapi_sales.dir/sapi_sales/src/manager/user_array.c.obj CMakeFiles/sapi_sales.dir/sapi_sales/src/stack/product_stack.c.obj CMakeFiles/sapi_sales.dir/sapi_sales/src/manager/lab5.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\sapi_sales.dir
