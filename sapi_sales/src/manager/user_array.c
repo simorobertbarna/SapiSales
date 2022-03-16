@@ -1,7 +1,7 @@
 //
 // Created by Robi on 3/9/2022.
 //
-
+#include <stdio.h>
 #include "user_array.h"
 
 void createUserArray(UserArray **UserArray, unsigned int maxUsers) {
@@ -24,5 +24,15 @@ bool addNewUser(UserArray* userArray, User* newUser){
 }
 
 User* getUserAtPosition(UserArray* userArray, int position){
+
+}
+
+void searchByID(UserArray* userArray, int id){
+
+    for (int i = 0; i <userArray->maxUsers; ++i) {
+        if(userArray->Users == id){
+             printf("%d", i);
+        }
+    }
 
 }

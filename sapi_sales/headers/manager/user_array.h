@@ -20,5 +20,6 @@ void createUserArray(UserArray **UserArray, unsigned int maxUsers);
 void deleteUserArray(UserArray **UserArray);
 bool addNewUser(UserArray* userArray, User* newUser);
 User* getUserAtPosition(UserArray* userArray, int position);
+void searchByID(UserArray* userArray, int id);
 
 #endif //SAPISALES_USER_ARRAY_H
