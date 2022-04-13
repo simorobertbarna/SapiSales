@@ -1,14 +1,11 @@
-//
-// Created by Robi on 3/1/2022.
-//
-
-#ifndef SAPISALES_LAB2_H
-#define SAPISALES_LAB2_H
+#ifndef SAPISALES_PROJECT_LAB2_H
+#define SAPISALES_PROJECT_LAB2_H
 
 #include "user.h"
 #include "product.h"
+#include <stdbool.h>
 
 void testUserFunctionalities();
 void testProductFunctionalities();
 
-#endif //SAPISALES_LAB2_H
+#endif //SAPISALES_PROJECT_LAB2_H

@@ -1,3 +1,3 @@
-D:/Egyetem/II.FÉLÉV/Adatszerkezetek/SapiSales/cmake-build-debug/CMakeFiles/sapi_sales.dir
+D:/Egyetem/II.FÉLÉV/Adatszerkezetek/SapiSales/cmake-build-debug/CMakeFiles/SapiSales_project.dir
 D:/Egyetem/II.FÉLÉV/Adatszerkezetek/SapiSales/cmake-build-debug/CMakeFiles/edit_cache.dir
 D:/Egyetem/II.FÉLÉV/Adatszerkezetek/SapiSales/cmake-build-debug/CMakeFiles/rebuild_cache.dir

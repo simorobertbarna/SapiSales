@@ -1,5 +1,4 @@
 //
-// Created by Robi on 3/9/2022.
 //
 #include <stdio.h>
 #include "user_array.h"

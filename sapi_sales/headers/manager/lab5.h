@@ -1,10 +1,7 @@
-//
-// Created by Robi on 3/16/2022.
-//
-
-#ifndef SAPISALES_LAB5_H
-#define SAPISALES_LAB5_H
-
+#ifndef SAPISALES_PROJECT_LAB5_H
+#define SAPISALES_PROJECT_LAB5_H
+#include "../../headers/stack/product_stack.h"
+#include "stdio.h"
+#include "useful.h"
 void testProductStackFunctionalities();
-
-#endif //SAPISALES_LAB5_H
+#endif //SAPISALES_PROJECT_LAB5_H

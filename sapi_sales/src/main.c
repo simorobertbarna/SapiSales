@@ -1,18 +1,18 @@
+#include <stdio.h>
 #include "lab_manager.h"
 
 int main() {
+    //Labor2
+    //lab2();
 
-    ///Create User
-    User *user = createUser("Michael Smith", TEACHER, MALE, MATHEMATICS_INFORMATICS, 1980);
-    printUser(user);
+    //Labor2_3 - testing basic user and functionalities
+    //lab2_3();
 
-    ///Create products
-    Product* product1 = createProduct("MS1", "Apple", FRUIT, 10);
-    Product* product2 = createProduct("MS2", "Book", SCHOOL, 4);
-    Product* product3 = createProduct("MS3", "Tomato", GROCERY, 20);
+    //Labor4 - UserArray, ProductArray
+    //lab4();
+    //Lab5 - STACK
+    lab5();
 
-    printProduct(product1);
-    printProduct(product2);
-    printProduct(product3);
+
     return 0;
 }

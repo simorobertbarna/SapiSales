@@ -1,7 +1,3 @@
-//
-// Created by Robi on 3/9/2022.
-//
-
 #ifndef SAPISALES_USER_ARRAY_H
 #define SAPISALES_USER_ARRAY_H
 
